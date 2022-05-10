@@ -1,0 +1,256 @@
+#live{
+    color: #33ff00;
+}
+
+main0{
+position: relative;
+    width:80%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr  ;
+    grid-gap: 40px;
+}
+
+.div1{
+				margin-top: 30px;
+}
+
+.div2{
+	            margin-top: 30px;
+}
+
+.first{
+				margin-top: -15px;
+}
+
+main0 img{
+margin-top: 50px;
+				width: 100%;
+				height: 100%;
+				border-radius: 4px;
+}
+
+center0{
+display: grid;
+				font-size: 25px;
+				justify-content: center;
+				align-self: center;
+				text-align: center;
+				margin: auto;
+				color: yellow;
+				margin-top: -33px;
+				text-shadow: 0 0 20px yellow;
+}
+
+main0 center0 hr{
+			width: 100%;
+			margin: 0 auto;		
+}
+
+center hr{
+			width: 280px;
+			margin: 0 auto;		
+			height: 3px;
+			background: white;
+			align-items:center;
+}
+
+center{
+				text-shadow: 0 0 20px yellow;
+}
+
+@media(max-width:600px){
+				main0{
+    width:80%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+main0 .div1 img{
+				width: 100%;
+				height: 100%;
+				border-radius: 2px;
+}                  
+
+center0{
+				font-size: 18px;
+}
+
+.div1{
+				margin-top: 0px;
+}
+
+.first{
+				margin-top: -30px;
+}
+}
+	
+	
+main1{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+   	grid-template-columns: 1fr 1fr;
+   	grid-template-rows: auto ;
+    grid-gap: 20px;
+}
+
+				
+main1 div center img{
+width: 100%;
+height: 140%;
+border-radius: 4px;
+justify-self:center;
+align-self: center;
+}
+main1 center1{
+display: grid;
+justify-content: center;
+align-items: center;
+color: white;
+				font-size: 30px;
+				text-align: center;
+				text-shadow: 0 0 20px white;
+}
+@media(max-width:500px){
+				main1{
+				grid-template-columns: 50% 50%;
+								grid-row-gap: 10px;
+								grid-column-gap: 10px;
+				}
+				main1 center1{
+				display: grid;
+				justify-content: center;
+								font-size: 16px !important;
+								text-align: center;
+				}
+}
+
+
+		main4{width: 80%;
+			margin: 0 auto;
+			display: grid;
+			grid-template-rows: 1fr 1fr ;
+			grid-template-columns:1fr 1fr 1fr ;
+			grid-gap: 30px;
+		}
+		
+		main4 img{
+		width: 100%;
+		height: 120%;
+		border-radius: 4px;
+		justify-self:center;
+		align-self: center;
+		}
+	
+		@media(max-width:500px){
+		main4{width: 80%;
+			margin: 0 auto;
+			display: grid;
+			grid-template-rows: auto;
+			grid-template-columns:1fr 1fr;
+			grid-gap: 10px;
+		}
+						main4 img{
+		width: 100%;
+		height: 100%;
+		border-radius: 2px;
+		justify-self:center;
+		grid-gap: 20px;
+		}	
+		}
+	
+		
+			@media(max-width:1100px){
+							main5 img{
+			width: 100%;
+			height: 120%;
+			border-radius: 2px;
+			justify-self:center;
+			align-self: center;
+			}
+			main5 center1{
+							font-size: 15px;
+			}
+			main5 center1 hr{
+							margin: auto;
+							width: 70%;
+			}
+			}
+			main5{width: 80%;
+				margin: 0 auto;
+				display: grid;
+				grid-template-rows: 1fr 1fr;
+			grid-template-columns:1fr 1fr 1fr ;
+			grid-gap: 30px;
+			}
+			
+			main5 img{
+			width: 100%;
+			height: 130%;
+			border-radius: 4px;
+			justify-self:center;
+			align-self: center;
+			}
+			main5 center3{
+			display: grid;
+			justify-content: center;
+			color: white;
+			text-shadow: 0 0 20px white;
+							font-size: 20px;
+			}
+			@media(max-width: 500px){
+							main5{width: 80%;
+				margin: 0 auto;
+				display: grid;
+				grid-template-rows: 1fr 1fr 1fr 1fr;
+			grid-template-columns:1fr ;
+			grid-row-gap: 20px;
+			}
+			main5 center3{
+							font-size: 16px;
+			}
+			}
+			
+			main2{width: 80%;
+				margin: 0 auto;
+				display: grid;
+				grid-template-rows: auto;
+			grid-template-columns:1fr 1fr;
+			grid-gap: 30px;
+			}
+			
+			main2 img{
+			width: 100%;
+			height: 100%;
+			border-radius: 4px;
+			justify-self:center;
+			align-self: center;
+			}
+				
+			@media(max-width:500px){
+								main2 {
+				width: 80%;
+				margin: 0 auto;
+				display: grid;
+				grid-template-columns: 1fr ;
+     grid-template-rows: 1fr 1fr ;
+			}
+			main2 hr{
+							width: 60%;
+			}
+			}
+			main2 img {
+				width: 100%;
+				height: 120%;
+				border-radius: 4px;
+				justify-self: center;
+				align-self: center;
+			} 
+			
+	   center{
+	   				color: yellow;
+	   }
+	  
