@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Practice Model viewer</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="css/model.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navigation Bar first--> 
+     <!-- __Header__  -->
+    <header>
+      <div class="d-flex">
+        <ul>
+          <li>
+          				<a href="https://m.facebook.com/106013801874439/" target="_blank">
+          								            <span class="social-icon social-facebook"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></span></a>
+          </li>
+          <li><a href="https://youtube.com/channel/UCq6CU-rqWzdJlf7hZWCfC5Q" target="_blank">
+            <span class="social-icon social-youtube"
+              ><ion-icon name="logo-youtube"></ion-icon
+            ></span></a>
+          </li>
+          <li>
+          				<a href="https://www.linkedin.com/company/gateesfit" target="_blank">
+            <span class="social-icon social-linkedin"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></span></a>
+          </li>
+          <li>
+          				<a href="https://instagram.com/gateesfit?utm_medium=copy_link" target="_blank">
+            <span class="social-icon social-instagram"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></span></a>
+          </li>
+        </ul>
+      </div>
+      <h1 class="logo">
+       <a href=""><img src="images/Model/homeelements/Gateelogobg.png" alt="Gatee logo" /></a>
+      </h1>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+          <li><a href="Timeline.html">Timeline</a></li>
+          <li><a id="live" href="Model.html">Model</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Sponsor.html">Sponsors</a></li>
+          <li><a href="Support.html">Support</a></li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            </label> 
+    </header>
+     <!-- __Header__  -->
+       
+        <!-- Navigation Bar first Ends-->
+    <div class="wrapper">
+    
+
+        <h1>Model 2020 <hr></h1>
+        <br>
+        
+        <div class="anime">
+            <model-viewer src="images/Model/kartbuild.gltf" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" seamless-poster shadow-intensity="1" camera-controls></model-viewer>
+        </div>
+        
+        <div class="brief"><p>GATEE01 is the first ever go-kart model designed entirely from scratch by our design team.Various design innovations are  included in this model in great depths. The major innovation of GATEE01 is the engine cooling side pods. Several FEA procedures were also performed on this particular model yielding satisfactory results and attempts towards an exactly replicated final model are being made.
+        </p>
+        </div>
+        
+       <div class="designs">
+           <img src="images/Model/Modelimg/FV.png" alt="1">
+           <img src="images/Model/Modelimg/BV.png" alt="2">
+           <img src="images/Model/Modelimg/3png.png" alt="3">
+           <img src="images/Model/Modelimg/calliperanddisc.png" alt="4">
+           <img src="images/Model/Modelimg/chasisIsopng.png" alt="5">
+           <img src="images/Model/Modelimg/chasisTV.png" alt="6">
+           <img src="images/Model/Modelimg/engine1.png" alt="7">
+           <img src="images/Model/Modelimg/engine2.png" alt="8">
+           <img class="last" src="images/Model/Modelimg/iso.png" alt="9">
+           
+       </div>
+    </div >
+</body>
+</html>
